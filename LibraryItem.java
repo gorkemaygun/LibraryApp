@@ -1,12 +1,11 @@
 public class LibraryItem {
-    private String title, author, publisher, type, ISBN;
+    private String title, author, publisher, ISBN;
     private int releaseYear;
 
-    public LibraryItem(String title, String author, String publisher, String type, String ISBN, int releaseYear) {
+    public LibraryItem(String title, String author, String publisher, String ISBN, int releaseYear) {
         this.title = title;
         this.author = author;
         this.publisher = publisher;
-        this.type = type;
         this.ISBN = ISBN;
         this.releaseYear = releaseYear;
     }
@@ -22,10 +21,6 @@ public class LibraryItem {
 
     public String getPublisher() {
         return publisher;
-    }
-
-    public String getType() {
-        return type;
     }
 
     public String getISBN() {
@@ -47,10 +42,6 @@ public class LibraryItem {
 
     public void setPublisher(String publisher) {
         this.publisher = publisher;
-    }
-
-    public void setType(String type) {
-        this.type = type;
     }
 
     public void setISBN(String ISBN) {

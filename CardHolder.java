@@ -8,6 +8,9 @@ public class CardHolder {
         this.age = age;
     }
 
+    public CardHolder() {
+    }
+
     public String getFirstName() {
         return firstName;
     }
@@ -31,4 +34,5 @@ public class CardHolder {
     public void age(int age) {
         this.age = age;
     }
+
 }
